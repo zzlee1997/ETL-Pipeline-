@@ -1,0 +1,9 @@
+stage,row_count
+"raw (union, scope-filtered)",92544
+valid (passed validation),92544
+invalid (failed validation),0
+cleaned (post composite-key dedup),90944
+failed (composite-key duplicates),1600
+transformed (post identifier dedup),77255
+failed (identifier duplicates),13689
+hashed (final output),77255

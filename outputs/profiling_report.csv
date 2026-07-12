@@ -1,0 +1,12 @@
+column,dtype,n_null,pct_null,n_distinct,min,mean,median,max,std,top_values
+month,str,0,0.0,60,,,,,,2012-03 (2360); 2012-05 (2323); 2012-07 (2179); 2012-04 (2155); 2012-08 (2075)
+town,str,0,0.0,26,,,,,,JURONG WEST (7573); WOODLANDS (7399); TAMPINES (6728); BEDOK (6071); YISHUN (5937)
+flat_type,str,0,0.0,7,,,,,,4 ROOM (36535); 3 ROOM (26307); 5 ROOM (21368); EXECUTIVE (7295); 2 ROOM (956)
+block,str,0,0.0,2139,,,,,,2 (397); 1 (350); 108 (318); 107 (309); 113 (298)
+street_name,str,0,0.0,522,,,,,,YISHUN RING RD (1629); BEDOK RESERVOIR RD (1264); ANG MO KIO AVE 10 (1188); ANG MO KIO AVE 3 (1059); HOUGANG AVE 8 (844)
+storey_range,str,0,0.0,25,,,,,,04 TO 06 (21214); 07 TO 09 (18765); 01 TO 03 (17466); 10 TO 12 (16028); 13 TO 15 (6704)
+floor_area_sqm,float64,0,0.0,168,31.0,96.57,95.0,280.0,24.68,
+flat_model,str,0,0.0,20,,,,,,Model A (26447); Improved (24117); New Generation (16495); Premium Apartment (8314); Simplified (5152)
+lease_commence_date,int64,0,0.0,48,1966.0,1990.07,1988.0,2013.0,10.45,
+resale_price,float64,0,0.0,2615,190000.0,450938.97,428000.0,1150000.0,128181.3,
+remaining_lease,float64,55391,59.85,50,48.0,73.91,72.0,97.0,10.89,
