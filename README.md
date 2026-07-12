@@ -19,6 +19,7 @@ file in `data/raw/` is loaded and processed exactly as downloaded.
 ## Project structure
 ```
 ETL-Pipeline-/
+├── data/raw # contains all initial raw files (note that data/raw means a "raw" folder within the "data" folder)
 ├── src/                   # reusable, documented pipeline logic
 │   ├── extract.py         # load + union raw files, scope-filter to Jan 2012 - Dec 2016
 │   ├── profiling.py       # lightweight column-level data profiling
