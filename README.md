@@ -12,6 +12,7 @@ pip install pandas jupyter nbformat
 cd notebooks
 jupyter nbconvert --to notebook --execute --inplace ETL_Pipeline.ipynb
 # or just open ETL_Pipeline.ipynb in Jupyter and Run All
+* Note that the scripts within the src folder are modular scripts imported into the ipynb script for the ETL-Pipeline to run the tasks. Hence, they should be downloaded within the same main folder to run the ipynb file on Jupyter Notebook *
 ```
 No manual data editing is required or performed anywhere in the pipeline — every source
 file in `data/raw/` is loaded and processed exactly as downloaded.
