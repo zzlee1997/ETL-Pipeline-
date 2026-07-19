@@ -17,8 +17,8 @@ Algorithm chosen: SHA-256.
       join/reference key downstream.
 
 Note: SHA-256 alone is unsalted, so it is technically vulnerable to a
-dictionary/rainbow-table attack IF the space of possible identifiers were
-small and guessable. Our identifiers are structured (not secret data) and
+dictionary/rainbow-table attack if the space of possible identifiers were
+small and guessable. Do note that the identifiers are structured and
 this hashing step exists to satisfy the assignment's "irreversible
 hashing" requirement for output governance -- not to protect a secret --
 so plain SHA-256 is an appropriate, standard choice here. (If identifier
