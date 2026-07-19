@@ -1,9 +1,7 @@
 """
 profiling.py
 ------------
-Lightweight, dependency-free data profiling (no external profiling library
-required, so the notebook has no heavy/fragile dependencies). Produces a
-per-column summary: dtype, null count/%, distinct count, and for numeric
+Produces a per-column summary: dtype, null count/%, distinct count, and for numeric
 columns min/mean/median/max/std, for categorical columns the top values.
 """
 from __future__ import annotations
